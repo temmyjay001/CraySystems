@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Cray Systems</title>
+  <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+  <div class="main">
+    <header>
+      <a href="#" class="logo">CRAY SYSTEMS</a>
+      <p>Welcome <a href="#">Guest</a></p>
+    </header>
+    <form id="login-form" autocomplete="off" action="login_validation" method="POST">
+      <img src="user.png" alt="guest user" />
+      <input type="text" name="username" placeholder="Username" required="required" />
+      <input type="password" name="password"  placeholder="Password" required="required"/>
+      <input type="submit" value="Login" form="login-form">
+      <a href="#" class="fgtpwd">Forgot Password ?</a>
+      <p>
+        Not a member yet ?
+        <a href="#" class="register">Register Here</a>
+      </p>
+    </form>
+  </div>
+</body>
+</html>

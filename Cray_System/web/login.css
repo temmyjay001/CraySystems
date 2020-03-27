@@ -1,0 +1,163 @@
+*{
+  margin:0;
+  padding:0;   
+  font-family:'Raleway',sans-serif;
+}
+body{
+  background:#444;
+}
+.main{
+  position:relative;
+  height:100vh;
+  width:100%;
+  background:linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)),url('banner.jpeg');
+  background-size:cover;
+  background-position:center center;
+  background-repeat:no-repeat;
+}
+.main form{
+  position:relative;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  height:auto;
+  width:550px;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  padding:15px 0;
+}
+.main form img{
+  height:150px;
+  width:150px;
+  border-radius:50%;
+  box-shadow:0px 0.5px 2px rgba(0, 0, 0, 0.9);
+}
+.main form input[type="text"],
+.main form input[type="password"]{
+  position:relative;
+  height:20px;
+  width:300px;
+  margin:15px 0 0 0;
+  -webkit-appearance:none !important;
+  background:transparent;
+  border:1.5px solid rgba(255, 255, 255, 0.55);
+  padding:5px 10px;
+  color:#fff;
+  outline:none;
+  box-shadow:0px 2px 5px rgba(0, 0, 0, 0.9);
+}
+.main form input[type="text"]:focus,
+.main form input[type="password"]:focus{
+  border-color:#eee;
+}
+.main form input[type="text"]::placeholder,
+.main form input[type="password"]::placeholder{
+  color:#ddd;
+  font-family:sans-serif;
+  font-weight:500;
+}
+.main form input[type="text"]:focus::placeholder,
+.main form input[type="password"]:focus::placeholder{
+  color:#aaa;
+}
+.main form input[type="submit"]{
+  position:relative;
+  height:30px;
+  width:325px;
+  cursor:pointer;
+  margin:15px 0;
+  background:#444;
+  -webkit-appearance:none !important;
+  border:none;
+  color:rgba(255, 255, 255, 0.85);
+  font-size:1em;
+  font-weight:lighter;
+  font-family:sans-serif;
+  text-transform:uppercase;
+  letter-spacing:2px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  box-shadow:0px 2px 5px rgba(0, 0, 0, 0.9);
+}
+.main form input[type="submit"]:hover{
+  background:#333;
+}
+.main header{
+  position:absolute;
+  width:100%;
+  height:auto;
+  color:#fff;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  padding:10px 0;
+  top:5%;
+}
+.main header .logo{
+  position:relative;
+  text-decoration:none;
+  color:#fff;
+  left:15%;
+  font-size:1.5em;
+  font-weight:550;
+  letter-spacing:1px;
+  float:left;
+  text-shadow:0px 2px 5px rgba(0, 0, 0, 0.9);
+}
+.main header .logo:hover{
+  color:#ddd;
+}
+.main header p{
+  position:relative;
+  text-decoration:none;
+  color:#fff;
+  left:72%;
+  float:left;
+  font-size:1.2em;
+  font-weight:500;
+  letter-spacing:1px;
+  height:auto;
+  text-shadow:0px 2px 5px rgba(0, 0, 0, 0.9);
+}
+.main header p a{
+  text-decoration:none;
+  color:#ff0;
+  margin:0;
+  padding:0;
+  font-size:1em;
+  font-weight:500;
+  left:-0.5%;
+}
+.main header p a:hover{
+  text-decoration:underline;
+  color:#ff0;
+}
+.main form p{
+  color:#fff;
+  font-size:0.99em;
+  font-weight:500;
+  letter-spacing:0.8px;
+  text-shadow:0px 2px 5px rgba(0, 0, 0, 0.9);
+  margin-top:15%;
+}
+.main form p a{
+  text-decoration:none;
+  color:#3498db;
+  text-shadow:0px 2px 5px rgba(0, 0, 0, 0.9);
+}
+.main form p a:hover{
+  text-decoration:underline;
+}
+.main form .fgtpwd{
+  text-decoration:none;
+  color:#fd0;
+  position:relative;
+  align:right;
+  left:15%;
+  margin:2% 0 1% 0;
+  font-size:1em;
+  text-shadow:0px 2px 5px rgba(0, 0, 0, 0.9);
+}
